@@ -1302,7 +1302,7 @@ Designs/manufactures engineered fastening & sealing components for aerospace/def
 | Capex | 11.6 | 12.1 | 12.8 (~4%) |
 
 ### Setting up the workbook — Cover & Assumptions
-File: **Cascade_Components_LBO_Model.xlsx**. Conventions: blue = input, black = formula, green = cross-sheet link, yellow = key assumption; $mm 1 decimal; % stored as fractions; multiples 0.0x.
+File: **Cascade_Components_LBO_Model.xlsx** (download the live workbook: https://simers.github.io/pe/Cascade_Components_LBO_Model.xlsx). Conventions: blue = input, black = formula, green = cross-sheet link, yellow = key assumption; $mm 1 decimal; % stored as fractions; multiples 0.0x.
 - **Cover:** company description, color legend, units/conventions, tab guide.
 - **Assumptions:** historical financials (FY23–25, with gross profit/margin & EBITDA-margin formulas); operating projection drivers (revenue growth %, gross margin %, SG&A % rev, D&A % rev, capex % rev, tax rate — Y1–Y5); working-capital days (DSO 55 / DIO 85 / DPO 45); transaction assumptions stubbed "TBD" for Module 5 (entry multiple, leverage, cost of debt, exit multiple, hold).
 - Next: build the Income Statement tab (historical → projected P&L to EBIT/EBITDA), then Balance Sheet + working capital, then (Module 5) debt schedule, sources & uses, returns.
