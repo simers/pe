@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Handbook build artifact (regenerable from pe_course_notes.md via build_handbook.py).
+# The .pdf is committed as the shareable deliverable; the intermediate .html is not.
+pe_course_handbook.html
+
+# Temp render scratch
+_snap/
+*.tmp

@@ -1,0 +1,12 @@
+# --- Handbook build (build_handbook.py) ---
+markdown            # Markdown -> HTML
+pypdf               # TOC page resolution + page-count verification
+playwright          # headless Chromium PDF render; run: playwright install chromium
+
+# --- LBO model build (build_model.py) ---
+openpyxl            # writes the .xlsx workbook
+
+# --- Analytics package (pe_analytics/) ---
+pandas
+numpy
+scikit-learn        # GradientBoostingRegressor in the forecast demo

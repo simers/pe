@@ -1,0 +1,47 @@
+MIT License
+
+Copyright (c) 2026 Simer Sawhney
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---------------------------------------------------------------------------
+SCOPE (please read)
+
+The MIT license above applies to the SOURCE CODE in this repository:
+  - build_handbook.py
+  - build_model.py
+  - the pe_analytics/ package
+  - build.sh and Makefile
+
+It does NOT cover the COURSE CONTENT:
+  - pe_course_notes.md
+  - pe_course_handbook.pdf / .html
+  - the snap_*.png snapshot images
+  - Cascade_Components_LBO_Model.xlsx (the illustrative model content)
+
+That content is (c) 2026 Simer Sawhney and provided for personal, educational
+use. Its structure follows the syllabus of the Wharton Online & Wall Street
+Prep Private Equity Certificate Program; it is independent and NOT affiliated
+with, endorsed by, or reproduced from that program. It is not investment
+advice; all Cascade Components figures are illustrative and all cited
+third-party facts should be verified against their original sources.
+
+(If you want the content under a specific license instead — e.g. Creative
+Commons CC BY-NC for share-with-attribution, or all-rights-reserved — replace
+this SCOPE section accordingly.)
