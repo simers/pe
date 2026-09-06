@@ -105,6 +105,3 @@ See `pe_course_progress.md` for the lesson-level checklist.
   Cascade model content) — © 2026 Simer Sawhney, personal educational use. Structure follows
   the Wharton Online & Wall Street Prep PE Certificate syllabus; independent and not
   affiliated with or endorsed by that program. Not investment advice; figures illustrative.
-
-Adjust the content terms in `LICENSE` if you want something else (e.g. CC BY-NC, or
-all-rights-reserved).
