@@ -2028,6 +2028,113 @@ For an industrial manufacturer the **aftermarket is usually the crown jewel** �
 
 ---
 
+# 7 — Thinking Like a Private Equity Professional (Pt. 2)
+*Continues the operating-model deep dive: cost structure and expense modeling, data-driven diligence, recurring-revenue / SaaS builds, and AI in PE. Where Module 6 built the **view**, Module 7 builds the **cost side** and the modern toolkit.*
+
+## 7.1 Cost Structures & Expense Modeling
+The cost side of the driver-based model (6.4), and the engine behind the assumption we keep leaning on: **why margins expand (or don't).** "Margins can't expand cyclically, they must expand structurally" — the mechanism is **cost structure**: the split between fixed and variable costs.
+
+**The core distinction (and two hybrids):**
+
+| Cost type | Behavior as revenue changes | Examples |
+|---|---|---|
+| **Variable** | moves ~proportionally with volume | raw materials, direct labor, shipping, commissions |
+| **Fixed** | flat within a range, regardless of volume | rent, corporate salaries, IT, insurance, the CFO |
+| **Semi-variable** | fixed base + variable slope | utility bill (base + usage); sales team (salary + commission) |
+| **Step (fixed)** | flat, then *jumps* at a capacity threshold | a second factory, a new shift, another warehouse |
+
+**Fixed costs create operating leverage.** When revenue grows and part of the cost base *doesn't*, that fixed cost spreads over more units → cost-per-unit falls → margin rises. Not an assumption — an arithmetic consequence of having fixed costs. It's the entire engine behind Cascade's 18.1% → 19.3% expansion.
+
+**Operating leverage, quantified — the worked mechanic.** A simple business: $100 revenue, 60% variable cost, $30 fixed.
+
+| | Base | Revenue +20% | What happened |
+|---|---|---|---|
+| Revenue | 100 | 120 | +20% |
+| Variable cost (60%) | (60) | (72) | grew with revenue |
+| Fixed cost | (30) | (30) | **flat** |
+| **Operating profit** | **10** | **18** | **+80%** |
+| Margin | 10% | 15% | **+5 pts** |
+
+Revenue rose 20%, profit rose **80%** — a **4× operating-leverage factor** (%Δprofit ÷ %Δrevenue = 80% ÷ 20% = 4), purely because the $30 fixed cost didn't move. **The more fixed the cost base, the higher the operating leverage — and the more margin swings in *both* directions.**
+
+**The double edge — high fixed cost isn't free.** Operating leverage is symmetric (1.7's amplification, at the operating level). The same $30 fixed cost that turned +20% revenue into +80% profit turns a *decline* into a savage fall: at revenue −20%, operating profit = 80 − 48 − 30 = **$2 (−80%)**. A high-fixed-cost business is a margin-expansion machine up and a wipeout down — so cost structure is a **risk** read, not just a margin one.
+
+**Model expenses by behavior — never one blended %:**
+
+| Line | Model it as | Why |
+|---|---|---|
+| COGS | mostly **variable**: unit cost × volume (+ fixed plant overhead) | scales with production |
+| SG&A | **fixed base + variable %** (the 4.5 split) | where operating leverage lives |
+| Sales & marketing | **semi-variable**: fixed team + variable commission/ad | partly scales |
+| Capacity costs | **step functions**: flag the revenue that forces a new plant/shift | the margin ramp *breaks* at each step |
+
+The single most important refinement is the **SG&A fixed/variable split** — it governs the entire margin path (70% fixed → margins expand fast; 70% variable → barely). **You can't defend a margin-expansion assumption without knowing this split** (diligence, 6.3). And ignoring **step costs** over-projects margins: growth eventually forces a new plant/shift and margin *drops* the year the step hits — smooth ever-rising margins usually mean someone forgot the steps.
+
+**Cascade.** The SG&A %-decline assumption is really an implicit bet that SG&A is substantially *fixed*. Two diligence questions decide if the ramp is real: (1) what's the fixed/variable split of SG&A (how fast can margins expand)? (2) where are the step costs (does ~$400M revenue force a second plant/shift that dents the ramp)? Fixed SG&A + step headroom → the ramp is earned; mostly-variable SG&A or a mid-hold step → flatten it.
+
+**Check (7.1).** Two companies each earn $10 operating profit on $100 revenue (10% margin). A is **80% variable / low fixed**; B is **40% variable / high fixed**. (i) Which has higher operating leverage, and what happens to each at revenue +25%? (ii) Which to own into a recession? (iii) What does it imply for how much *debt* leverage to put on each, and which lesson does that echo?
+
+**Answer.** Solve the cost bases: A = $80 variable + **$10 fixed**; B = $40 variable + **$50 fixed**.
+
+*(i)* At revenue +25% (→ $125):
+- **A:** 125 − 100 − 10 = **$15** → %Δprofit = (15−10)/10 = 50%; operating leverage = 50% ÷ 25% = **2×**
+- **B:** 125 − 50 − 50 = **$25** → %Δprofit = (25−10)/10 = 150%; operating leverage = 150% ÷ 25% = **6×**
+
+B has far higher operating leverage — its $50 fixed cost doesn't move, so the same revenue rise drops disproportionately to profit. The **operating-leverage factor = %Δ operating profit ÷ %Δ revenue**, set entirely by the fixed/variable mix.
+
+*(ii)* Own **A** into a recession. Symmetric downside, revenue −25% (→ $75): A = 75 − 60 − 10 = **$5 (−50%)**; B = 75 − 30 − 50 = **−$5 (a loss, −150%)**. Same revenue drop; A stays profitable, **B flips to an operating loss.** The fixed cost that made B a rocket up makes it a wipeout down.
+
+*(iii)* **The less operating leverage, the more financial (debt) leverage a business can safely bear — and vice versa.** There are two independent amplifiers: **operating leverage** (fixed operating costs → revenue swings become EBIT swings) and **financial leverage** (fixed interest → EBIT swings become equity swings). They *multiply* (total leverage = operating × financial). B already turns −25% revenue into −150% EBIT; add debt and you amplify an already-amplified swing → coverage collapses and covenants trip exactly in the downturn. So you keep debt **modest** on high-operating-leverage B and can safely lever **stable, low-fixed-cost A** more. Echoes **1.7** and the **Situational/TXU** deep dive: *don't stack amplifiers* — a cyclical, high-fixed-cost business financed with high debt is two amplifiers pointed at the same downturn. (Sizing rule: judge debt by how much EBIT can *swing* and whether coverage survives the trough — the cash-coverage/covenant-headroom test from the 5.1 leverage check — not just today's EBITDA multiple.)
+
+## 7.2 Data Analysis & the Due Diligence Process
+Module 6.3 was about *getting* the data and treating it skeptically; 7.2 is the flip side — the techniques you run *on* it to turn a pile of data-room files into drivers, a risk read, and negotiating leverage.
+
+**The mindset: diligence analysis is investigation, not reporting.** A junior summarizes ("revenue grew 6%, here's a chart"); a professional *interrogates* — every cut of the data is a **hypothesis test** aimed at the story the averages hide and the disconfirming evidence that would kill the deal.
+
+**The toolkit — what PE runs on management data:**
+
+| Technique | What it answers | Where it came up |
+|---|---|---|
+| **Cohort analysis** | is the customer base getting better or worse over time? | 6.3; the star technique |
+| **Bridge / waterfall** | *what drove* a change (price × volume × mix × new/churn) | 3.x, 4.4 |
+| **Segment & concentration** | which parts grow/earn/risk differently; dependence on a few customers | 6.5 |
+| **Trend & normalization** | is the snapshot representative or one-offs? (multi-year, QoE-cleaned) | 3.x QoE |
+| **Unit economics** | does one customer/unit make money? (CAC, LTV, contribution, payback) | 6.1 |
+| **Benchmarking** | is a metric an outlier vs peers — moat or red flag? | 6.2 |
+
+**The star technique — cohort analysis.** Group customers by *when they were acquired* (vintage), then track each group over time. Year-1 retention by cohort:
+
+| Cohort | Yr 0 | Yr 1 | Yr 2 | Yr 3 |
+|---|---|---|---|---|
+| 2022 | 100% | 92% | 87% | 84% |
+| 2023 | 100% | 91% | 86% | — |
+| 2024 | 100% | 88% | — | — |
+| 2025 | 100% | 82% | — | — |
+
+Read *down* the Yr-1 column: 92% → 91% → 88% → 82% — each newer cohort retains *worse* at the same age → the moat is eroding *now*. A blended "~88%" hides it (healthy old cohorts prop up the average). Two flavors: **logo retention** (how many customers stay) vs **net revenue retention (NRR)** = a cohort's revenue this year ÷ its year-0 revenue, netting churn against **expansion**; **NRR >100%** means survivors spend more each year — a moat you can measure (6.2 pricing power). When the two diverge, the interesting diligence lives there (see the check).
+
+**Investigative habits:** cut the data every way (segment/customer/product/geo/month — each a hypothesis); the **concentration cut** especially (top-10 as % of revenue *and* margin). **Bridge every change** (6% that's all price on a shrinking base ≠ 6% of unit growth). **Reconcile to what the seller doesn't control** (tie CRM/KPIs to *audited* financials — if bookings say $210M but audited revenue is $180M, ask why). **Trend, not snapshot** (three years is signal, one year is noise — and reveals a peak, the TXU lesson).
+
+**Data-quality traps:** definitional drift (did "active customer"/"ARR" get redefined to flatter?); survivorship (a "customers grow 15%/yr" stat that counts only survivors); selection (references/samples are curated — pull the full dataset); cash-vs-accrual / gross-vs-net (know which before comparing).
+
+**This is what `pe_analytics` operationalizes** — QoE-forensics, cohort/retention, comps, forecasting in code; the forecaster uses **walk-forward validation vs a naive baseline** (does it beat "assume last year repeats"?), the analytical honesty this lesson demands — and it's the on-ramp to 7.5 (AI runs these on the *entire* transaction dataset, not a sample).
+
+**Cascade:** cohort retention on the aftermarket base (is the crown jewel's stickiness holding? — 6.5); a revenue bridge splitting the 6% into new-equipment volume vs aftermarket price vs mix; a concentration cut on revenue *and* margin; a reconciliation of order/backlog data to audited revenue. Each a hypothesis test on the thesis.
+
+**Check (7.2).** A SaaS target shows **logo retention falling** (95% → 90% → 84% for the last three Yr-1 cohorts) but **NRR of 118% and rising**, pitched as proof of a strong moat. (i) How can logo retention fall while NRR rises? (ii) Is 118% the good news claimed, or does the divergence hide a risk? (iii) One cut to settle healthy vs fragile?
+
+**Answer.**
+
+*(i)* NRR nets **expansion** (survivors paying more) against **churn**, so a few expanding accounts push the *revenue* ratio above 100% even as the *count* of customers bleeds. Concretely: a cohort of 100 customers / $100 loses 16 customers (84% logo retention), but the 84 survivors — led by a few big upsells — now pay $118 → **NRR 118%, logo retention 84%, same cohort.** Revenue grew because *the winners got bigger*, not because customers stayed. As the sharp version goes: **a declining cohort reveals a risky numerator.**
+
+*(ii)* Not the good news claimed — the divergence hides **two** risks. **Concentration:** the 118% is carried by a few whales; lose one and NRR doesn't dip, it *craters* (you lose a revenue chunk *and* the expansion engine) — all eggs in a few baskets. **An eroding base:** falling logo retention means the product's *broad appeal is weakening* — small/mid customers are leaving; today the whales mask it, but whales are finite and once tapped out there's nothing left to hide the churn. So **NRR is a lagging flatterer** — great right up until the base is too thin and the whales are maxed, then it collapses. *Rising NRR + falling logo retention = more concentrated and less broadly loved at once* — a moat eroding, disguised as a moat working.
+
+*(iii)* **Decompose the NRR, and concentrate the expansion.** (a) Split each cohort's revenue change into **gross churn − downsell + expansion** — if 118% is "−20% churn, +38% expansion," you can *see* expansion doing all the work over heavy churn. (b) Measure concentration *of the expansion*, not just revenue: **what % of the net expansion comes from the top 3–5 accounts?** If ~80% is three customers, the NRR is a house of cards. Confirm outside the room (6.3): **reference calls with the whales** — still expanding, or tapped out and shopping? The whole thesis rests on them.
+
+*Reflex:* management leads with the metric that flatters (NRR); ask *"what does this headline number net together, and what happens when I pull it apart?"* A rising net metric on top of a deteriorating component metric is among the most common — and most dangerous — patterns in diligence, precisely because it looks like strength.
+
+---
+
 # Sources & References
 
 *Real figures in this handbook were verified against public sources during course preparation (mostly via web search of primary disclosures and financial press). **Point-in-time data drifts** — fund marks, interest rates, and market sizes change; verify against primary sources before relying on them. Worked examples labeled "illustrative" (including the entire **Cascade Components** case and the round-number LBO/DCF examples) are hypothetical teaching constructs — not real companies, transactions, or projections.*

@@ -57,8 +57,8 @@
 - ✅ 6.5 Business Segmentation & Revenue Builds  ·  blend hides mix/margin/risk, segmentation axes, layer-cake build, Cascade new-equipment vs aftermarket
 
 ## Module 7 — Thinking Like a PE Professional, Pt. 2
-- ⬜ 7.1 Cost Structures & Expense Modeling
-- ⬜ 7.2 Data Analysis & the Due Diligence Process
+- ✅ 7.1 Cost Structures & Expense Modeling  ·  fixed/variable, operating leverage (worked +80%/4×), model-by-behavior, step costs, don't stack amplifiers
+- ✅ 7.2 Data Analysis & the Due Diligence Process  ·  investigation-not-reporting, cohort analysis, NRR vs logo, bridges, concentration, data-quality traps
 - ⬜ 7.3 The Data Room Loop: Working with Management Data
 - ⬜ 7.4 The SaaS Model & Recurring Revenue Builds
 - ⬜ 7.5 AI Applications in Private Equity
