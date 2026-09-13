@@ -2133,6 +2133,26 @@ Read *down* the Yr-1 column: 92% → 91% → 88% → 82% — each newer cohort r
 
 *Reflex:* management leads with the metric that flatters (NRR); ask *"what does this headline number net together, and what happens when I pull it apart?"* A rising net metric on top of a deteriorating component metric is among the most common — and most dangerous — patterns in diligence, precisely because it looks like strength.
 
+### Deep dive — Concentration on both statements: Nvidia (2026)
+The 7.2 concentration lesson at the world's most valuable company — and the exact "explosive headline hiding a deteriorating component" pattern from the check above. Nvidia's revenue grew ~106% in the quarter, yet inside that number, customer concentration is climbing on *both* financial statements:
+
+| | Revenue (income statement) | Receivables (balance sheet) |
+|---|---|---|
+| FY2023 | no customer >10% | — |
+| FY2025 | 2 customers ~23% | 2 customers = 33% |
+| Jan FY2026 | 1 at 22% + 1 at 14% (≈36%) | 3 customers = 56% |
+| **H1 FY2027** | **3 customers = 44%** | **5 customers = 70% of $63B** |
+
+**Three things it teaches:**
+- **Concentration lives on *both* statements — and the balance-sheet cut is often worse.** Revenue concentration is 44% (three names); *receivables* concentration is **70% (five names)** — the money owed is more concentrated than the money earned. Run the concentration cut on receivables, not just sales: credit exposure can exceed revenue exposure. (Michael Burry publicly flagged the revenue concentration as a top risk.)
+- **The headline hides a revenue-*quality* problem — "financing its own demand."** DSO stretched **45 → 60 days** (up to **90 days–1 year** for big customers); receivables **+63%** to $63B; operating cash flow roughly *halved* in a quarter ($50B → $24B) as AR absorbed the cash; and Nvidia is **investing in its own customers** (CoreWeave, Nebius) who then buy its chips. The QoE question (3.x): is this *end* demand, or is Nvidia lending customers the money to buy? Net income booms while cash conversion deteriorates — the accrual-vs-cash divergence revenue-quality diligence exists to catch ("growth eats cash," 4.6, at hyperscale).
+- **It's a moat-erosion story too (6.2).** The biggest customers (Microsoft, Meta, Amazon, Google) are building their own chips — the vertical-integration threat that could shrink Nvidia purchases (Boeing/Spirit in reverse: customers *insourcing*). Nvidia's response — seeding neoclouds and sovereign buyers — is a moat defense, diversifying the base before the whales tap out.
+
+**The counterpoint (two-sided read).** A reader comment on the article (Kenneth Goldman) argued the piece missed that *"Nvidia's cash balance is a weapon for winning customers compared to startups."* That's the essential counterweight: the *same* vendor-financing that reads as risk (financing demand, concentrating credit) is *also* a competitive **moat** — Nvidia's balance sheet lets it extend a year of terms and take equity stakes in customers in a way a cash-poor rival (AMD, a startup, a neocloud) can't. So the honest conclusion is two-sided: **balance-sheet strength as a weapon *and* concentration + revenue-quality as a risk** — which dominates depends on whether the financed demand proves real. (The "test both sides" discipline of 6.2/6.5, applied to the year's marquee growth story.)
+
+*(Sources: The Information, "Nvidia's Growing Dependence On a Few Big Customers," Peers & Liu, Sept 13 2026; Nvidia 10-Q (H1 FY2027) — 3 customers 44% of revenue, 5 customers 70% of $63B receivables, DSO 45→60d; corroborated by Forbes, FXStreet, and Nvidia's SEC filings. Figures point-in-time.)*
+
+
 ---
 
 # Sources & References
@@ -2152,6 +2172,8 @@ Read *down* the Yr-1 column: 92% → 91% → 88% → 82% — each newer cohort r
 **PE resilience & bifurcation — the other half of the crunch (Module 1 deep-dive).** WSJ: "KKR Closes Record $23 Billion North America Private-Equity Fund" (N. Miller, Apr 2, 2026; NAX4, largest NA-only fund ever; predecessor funds 23% gross / 19% net IRR, 2.1× / 1.8× MOIC); "Aon Nears Roughly $17 Billion Deal for Insurance Brokerage USI" (L. Thomas & M. Maurer, Aug 30, 2026; KKR bought USI for $4.3B in 2017 — a strategic exit); "Midmarket Firm GenNx360 Raises $865 Million Fund for AI-Fueled Transformation" (M. Armental, Aug 27, 2026; AI-barbell thesis; Precision Aviation exit ~2.5× / 48% IRR; continuation vehicles); and "Private Credit's Chills Draw Bargain Hunters Offering Cash to Trapped Investors" (I. Taylor, Aug 24, 2026; Cox Capital ~26%-of-NAV BDC offers; gated redemptions; nonaccruals 4.69%). KKR CoolIT sale to Ecolab ($4.75B, ~15×) corroborated by BusinessWire/Ecolab, Mar 2026.
 
 **SaaSpocalypse — the contrarian read (Module 6.2 moat-test).** WSJ, "AI Is Disrupting Software Companies — but Not as Fast as Many Feared," Asa Fitch, Sept 8, 2026 (incumbents' switching-cost/integration moats held; Salesforce +22% on earnings with Agentforce ARR ~$1.5B / +240%; the real vector is "seat compression" of the seat-based pricing model, not company extinction; Salesforce ~16× forward P/E vs ~43× 10-yr avg). Corroborated by the ~$2T 2026 software drawdown data and Salesforce/ServiceNow/Workday Q2–Q3 2026 results.
+
+**Customer concentration — on both statements (Module 7.2 deep-dive).** The Information, "Nvidia's Growing Dependence On a Few Big Customers," Martin Peers & Qianer Liu, Sept 13, 2026, and Nvidia Form 10-Q (H1 FY2027): 3 customers = 44% of revenue; 5 customers = 70% of the $63B receivables balance; DSO 45→60 days (up to 1 year for investment-grade buyers); vendor-financing/self-seeded demand (CoreWeave, Nebius). Corroborated by Forbes, FXStreet, and Nvidia SEC filings, Aug–Sept 2026.
 
 **Leveraged finance.** SOFR (3.63%, mid-July 2026): Federal Reserve Bank of New York (publishes SOFR daily). Private credit vs. broadly-syndicated market sizes (~$1.5–2T each; ~$3T by 2028 forecast), CLO issuance ($43.1B), spread levels (median S+475; S+350 examples), JPMorgan's ~$50B direct-lending expansion, and jumbo unitranche deals (Ares/Ardonagh ~$3.3B, Foundation Risk Partners ~$2.2B, KKR Credit ~$1.1B): industry data providers and financial press, 2025–2026.
 
