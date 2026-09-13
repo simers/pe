@@ -489,8 +489,6 @@ Leverage doesn't *create* the loss — a broken thesis does. But leverage conver
 
 **The punchline — illiquidity is the whole trade.** What survived Situational's collapse? Its one **illiquid, unmarked, un-callable** position: a ~$5B stake in Anthropic. It couldn't be margin-called or force-sold, so it lived, and the fund reportedly continues as "a private investment vehicle" built around it. In its crisis, the hedge fund's salvation was the one asset that behaved like a **private-equity** holding. That is the entire PE bargain in a single fact: illiquidity is what saves you from the run — and exactly what can trap you afterward.
 
-*(Sources: WSJ, "His Wedding Guests Were Arriving—Just as His $45 Billion Fund Was Falling Apart," Jin, Rudegeair, Zuckerman & Gardizy, July 31 2026, plus CNBC / FT / Bloomberg, July 2026; TXU/EFH: Harvard Business School case, contemporaneous financial press, and Berkshire Hathaway disclosures. Figures are point-in-time.)*
-
 ## Deep dive — EBITDA basics (foundation)
 
 **EBITDA = Earnings Before Interest, Taxes, Depreciation & Amortization.** Add back four things to profit to isolate core operating performance:
@@ -1050,8 +1048,6 @@ Read it: Boeing paid $8.4B *and* took on a business whose fair-valued liabilitie
 
 **The business question — "why buy a company with *negative* net assets?"** A *financial* buyer (a PE fund) almost never would. Boeing did it because it wasn't buying assets, it was buying **supply-chain control under duress**: Spirit was its **sole-source** fuselage supplier, ~58% of Spirit's revenue came from Boeing, Spirit was drowning in losses (could have failed and taken Boeing's line down), and after the 2024 door-plug blowout Boeing needed quality control in-house. So Boeing *had* to buy — and "Spirit extracted a large premium" precisely because Boeing had no alternative. Two course lessons in the flesh: the **strategic-vs-financial buyer** distinction (a strategic pays for control/synergy/necessity, not standalone value — like Aon buying USI, Ecolab buying CoolIT), and **negotiation leverage** (Module 2) — a must-keep-alive sole-source supplier holds all the cards. The final irony: Boeing had *spun these very factories off* in 2005 to outsource and cut costs — an expensive, forced reversal of a 20-year financial-engineering bet.
 
-*(Sources: WSJ, "Boeing's $8.4 Billion Deal Is Bleeding Red Ink," J. Weil, Sept 3 2026; Boeing 10-Q filings, Q1/Q2 2026 — consideration $8.389B, goodwill $9,997M → $10,278M, off-market contract liability ~$1.52B. Figures are the company's provisional PPA.)*
-
 ---
 
 ## 3.4 Deal Structuring: Asset Sales / 338(h)(10) vs Stock Sales
@@ -1277,8 +1273,6 @@ Every one of these is an add-back of the kind we practiced: a cost the new owner
 
 **The honest nuance.** Not all of the $192M → $11M cut is a clean "add-back" — some was genuine discretionary spend (charitable donations) a founder chose and a financial owner won't. And cost discipline has a perception cost: customers have posted about "scrawnier" sandwiches, which Blackstone denies. That is the discipline effect (1.7) *and its limit* in one image — strip the owner's excess, but cut the product and you damage the brand you are selling.
 
-*(Sources: WSJ, "How Blackstone Put Jersey Mike's on a Fast Track to This Week's IPO," Maurer & Haddon, July 29 2026; Jersey Mike's Subs Form S-1; corroborated by CNBC, Forbes, Bloomberg. Figures are point-in-time, pre-IPO-pricing.)*
-
 ## 4.2 Valuation Methodologies for the Private Target
 The three lenses and their synthesis were built in depth in 1.8 — here's how they apply once the target is private:
 
@@ -1392,7 +1386,6 @@ Concretely, changing only the Year 1 growth input:
 Every dollar line moves — including D&A — yet the **margin is unchanged at 18.2%**, which proves Q1 in one table: growth scales the dollars, but the rates (and therefore the margin) don't move.
 
 **Modeling lesson — why D&A-as-%-of-revenue is a shortcut:** real depreciation comes from the **fixed-asset base** (prior PP&E + capex, depreciated over useful life), so it is driven by the *balance sheet and capex schedule*, not by the current year's sales. A rigorous model computes D&A from a **PP&E roll-forward**; then D&A would *not* jump just because revenue did. The %-of-revenue version is fine for a first pass but is exactly the kind of assumption to flag — and it's why the next build is the **Balance Sheet** (PP&E, capex, and depreciation linked properly, so D&A stops being a revenue-driven plug).
-
 
 ### The Balance Sheet — working capital & PP&E
 The Balance Sheet turns two operating drivers into cash consequences and fixes the D&A shortcut.
@@ -2133,7 +2126,7 @@ Read *down* the Yr-1 column: 92% → 91% → 88% → 82% — each newer cohort r
 
 *Reflex:* management leads with the metric that flatters (NRR); ask *"what does this headline number net together, and what happens when I pull it apart?"* A rising net metric on top of a deteriorating component metric is among the most common — and most dangerous — patterns in diligence, precisely because it looks like strength.
 
-### Deep dive — Concentration on both statements: Nvidia (2026)
+## Deep dive — Concentration on both statements: Nvidia (2026)
 The 7.2 concentration lesson at the world's most valuable company — and the exact "explosive headline hiding a deteriorating component" pattern from the check above. Nvidia's revenue grew ~106% in the quarter, yet inside that number, customer concentration is climbing on *both* financial statements:
 
 | | Revenue (income statement) | Receivables (balance sheet) |
@@ -2149,9 +2142,6 @@ The 7.2 concentration lesson at the world's most valuable company — and the ex
 - **It's a moat-erosion story too (6.2).** The biggest customers (Microsoft, Meta, Amazon, Google) are building their own chips — the vertical-integration threat that could shrink Nvidia purchases (Boeing/Spirit in reverse: customers *insourcing*). Nvidia's response — seeding neoclouds and sovereign buyers — is a moat defense, diversifying the base before the whales tap out.
 
 **The counterpoint (two-sided read).** A reader comment on the article (Kenneth Goldman) argued the piece missed that *"Nvidia's cash balance is a weapon for winning customers compared to startups."* That's the essential counterweight: the *same* vendor-financing that reads as risk (financing demand, concentrating credit) is *also* a competitive **moat** — Nvidia's balance sheet lets it extend a year of terms and take equity stakes in customers in a way a cash-poor rival (AMD, a startup, a neocloud) can't. So the honest conclusion is two-sided: **balance-sheet strength as a weapon *and* concentration + revenue-quality as a risk** — which dominates depends on whether the financed demand proves real. (The "test both sides" discipline of 6.2/6.5, applied to the year's marquee growth story.)
-
-*(Sources: The Information, "Nvidia's Growing Dependence On a Few Big Customers," Peers & Liu, Sept 13 2026; Nvidia 10-Q (H1 FY2027) — 3 customers 44% of revenue, 5 customers 70% of $63B receivables, DSO 45→60d; corroborated by Forbes, FXStreet, and Nvidia's SEC filings. Figures point-in-time.)*
-
 
 ---
 
