@@ -52,6 +52,7 @@
 ## Module 6 — Thinking Like a PE Professional, Pt. 1
 - ✅ 6.1 Understanding Industries & TAMs  ·  TAM/SAM/SOM, top-down vs bottom-up, structural vs cyclical
 - ✅ 6.2 Barriers to Entry & Competitive Advantages  ·  moat types, diligence filter (replication/pricing/churn/margin), moat→model
+  · + Pricing-power deep dive (Apple vs On Holding); references now numbered with superscripts
 - ✅ 6.3 The Data Room Loop & Working with Management Data  ·  the loop, read-the-gap, management-data-as-claim, triangulation, gap=leverage
 - ✅ 6.4 The Operating Model & Drivers of Value  ·  driver-based vs line-item, driver tree, inputs-vs-outputs, diligence→driver map
 - ✅ 6.5 Business Segmentation & Revenue Builds  ·  blend hides mix/margin/risk, segmentation axes, layer-cake build, Cascade new-equipment vs aftermarket
