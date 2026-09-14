@@ -2161,6 +2161,43 @@ The 7.2 concentration lesson at the world's most valuable company<sup>17</sup> �
 
 ---
 
+## 7.3 The Data Room Loop: Working with Management Data
+The syllabus revisits the data room on purpose: 6.3 was the *concept* (seller-curated, incomplete-by-construction, read the gaps); 7.3 is the *craft* — how you **run** the loop under real constraints, negotiate access, and handle the fact that management's data is messy, self-defined, and supplied by people who want the deal done. This is where a diligence lead earns their keep: not in the analysis (7.2) but in *extracting the right data from a reluctant, self-interested source, in the right order, before the exclusivity clock runs out.*
+
+**Run it as a managed process — the DRL.** The engine is the **diligence request list**: a living, tracked document of every item requested, its status, and the follow-ups it spawned.
+
+| Stage | The craft |
+|---|---|
+| **Prioritize** | front-load the *thesis-critical, deal-breaking* items (cohort data, customer contracts, QoE) — not the easy stuff; access and time are finite |
+| **Sequence** | order requests so each answer *informs the next* (the 6.3 loop) — you can't ask the sharp follow-up before the first cut |
+| **Track status** | every item Open / Received / Partial / Refused, with the follow-up it generated; an untracked DRL *is* the failure mode |
+| **Escalate** | partial / stale / "not available" is a signal to manage, not a dead end |
+
+**How management responds is itself data.** The *pattern* often tells you more than the data:
+- **Volunteer vs. withhold** — fast, polished answers on the good metrics; friction/delay/"we don't track that" on the ones that matter. The **friction map traces the risk map.**
+- **"We don't track that"** — sometimes a real ops-maturity flag (a company that can't produce cohort retention may not *manage* by it), sometimes a dodge; either way a **finding, not a stop.**
+- **Partial / redefined answers** — FY25 but not FY23; revenue but not margin; a redefined "ARR." Each omission is a hypothesis (6.3) → escalate the specific follow-up.
+- **Bad data arriving late** — a problem surfacing right before signing, when your sunk cost and momentum peak, is a classic pattern → front-load the deal-breakers *early*.
+
+**Negotiate access — the real-world constraints.** Staged access (customer names, comp, precise margins gated to later rounds); **clean teams** (independent third parties see raw data, report only aggregates — for competitively sensitive data when the buyer is a strategic); management meetings & reference calls (highest-bandwidth, most stage-managed — ask *disconfirming* questions, reach *off-list* sources); and **the exclusivity clock** (once in exclusivity you've stopped shopping and your leverage decays daily).
+
+**Reconcile, don't just collect (the anti-fabrication discipline).** Tie every management number to something they don't fully control: operational KPIs (CRM/ERP) → **audited financials**; Adjusted EBITDA → **QoE** re-derivation (M3); pipeline/projection → **historical conversion + cohorts** (7.2); any management-built spreadsheet with no audit trail → a *claim* needing a primary document.
+
+**The output is a triage, not certainty.** Sort every open item into: **(a) resolved** (verified); **(b) priced** (a bounded risk reflected in the offer — gap-as-leverage, "cohorts eroding → 8.5× not 9.5×"); **(c) protected** (rep & warranty, escrow, or earnout — M2 — so the *seller* bears the cost if they're wrong); or **(d) walk-away** (a fatal, unboundable item). A pro doesn't need every question answered — they need to know which unanswered questions are *fatal*.
+
+**Cascade:** front-load the deal-breakers (aftermarket cohort retention — the 6.5 crown-jewel test; top-customer contracts — concentration + spec'd-in switching costs, 6.2/Nvidia; QoE add-back detail); reconcile order/backlog KPIs to audited revenue; reference-call *off-list* customers; and do the load-bearing items **before exclusivity**, while you still have the leverage to walk.
+
+**Check (7.3).** Three weeks in on Cascade: (a) management sends every *revenue/growth* cut within a day, but three requests for **aftermarket cohort retention** keep returning "we don't track it that way — here's blended retention"; and (b) the seller is pushing you to sign exclusivity *this week*. (i) What do you read into the response *pattern*? (ii) How does exclusivity change your risk, and what do you do about sequencing? (iii) If you can't get the cohort data before deciding, which triage outcome applies and how do you act?
+
+**Answer.**
+
+*(i)* Blended retention is a **net metric hiding the component** (the 7.2 pattern); cohort retention is the moat-erosion test (6.2/6.5). "We don't track it that way" is either an ops-maturity flag or a dodge — **a finding, not a stop.** Crucially, the **friction contrast is itself the signal**: instant delivery on the flattering cuts, persistent resistance on the one moat-testing cut — the friction map tracing the risk map, which *raises* the prior that the aftermarket cohorts are the problem. Resolve by triangulating on sources management doesn't curate: off-list reference calls, third-party data.
+
+*(ii)* Pressure is no excuse to drop the risk assessment — but the mechanism matters: **exclusivity flips your leverage.** Before signing it you can walk anytime, which is your entire power to *compel* the resisted disclosure; the moment you sign, you've stopped shopping and that leverage decays daily. So don't just "sequence deal-breakers up front" — **make the cohort data (or a clean-team/reference-call substitute) a *condition of granting exclusivity*.** Use the thing they want (your signature, the locked timeline) as leverage for the thing you need. Their reaction is more diligence: a seller who suddenly "finds" the data was dodging; one who genuinely can't has an ops problem you now price. *Resisting the moat-test data + rushing exclusivity* is a recognizable pattern — do **not** sign away the ability to walk while the fatal question is open.
+
+*(iii)* Default to **price** — lower the entry multiple *and* fade the margin-expansion assumption (6.4/7.1) — **but only if the risk is bounded** (you can size the worst-plausible erosion) and everything else load-bearing reconciles to auditable facts. Layer the toolkit: first **substitute** the data (reference calls / clean team / third-party); if still unresolved, **price** it and/or **protect** it (a rep & warranty that recent-cohort retention ≥ a threshold, backed by escrow/indemnity, or an earnout tying price to the aftermarket holding up — shifting the cost to the seller if they're wrong); and **walk** only if the risk is both *fatal and unboundable*. The discipline: **price a bounded risk, protect what you can shift to the seller, walk an unbounded fatal one** — and the exclusivity moment is where diligence craft and negotiation leverage (M2) fuse.
+
+
 # Sources & References
 
 *Real figures in this handbook were verified against public sources during course preparation (mostly via web search of primary disclosures and financial press). **Point-in-time data drifts** — fund marks, interest rates, and market sizes change; verify against primary sources before relying on them. Worked examples labeled "illustrative" (including the entire **Cascade Components** case and the round-number LBO/DCF examples) are hypothetical teaching constructs — not real companies, transactions, or projections. Superscript numbers in the text point to the entry below where a source is first cited.*
