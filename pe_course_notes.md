@@ -2198,6 +2198,55 @@ The syllabus revisits the data room on purpose: 6.3 was the *concept* (seller-cu
 *(iii)* Default to **price** — lower the entry multiple *and* fade the margin-expansion assumption (6.4/7.1) — **but only if the risk is bounded** (you can size the worst-plausible erosion) and everything else load-bearing reconciles to auditable facts. Layer the toolkit: first **substitute** the data (reference calls / clean team / third-party); if still unresolved, **price** it and/or **protect** it (a rep & warranty that recent-cohort retention ≥ a threshold, backed by escrow/indemnity, or an earnout tying price to the aftermarket holding up — shifting the cost to the seller if they're wrong); and **walk** only if the risk is both *fatal and unboundable*. The discipline: **price a bounded risk, protect what you can shift to the seller, walk an unbounded fatal one** — and the exclusivity moment is where diligence craft and negotiation leverage (M2) fuse.
 
 
+## 7.4 The SaaS Model & Recurring Revenue Builds
+Where Module 7's recurring-revenue thread converges — the 6.5 layer cake, 7.2 cohort analysis, the NRR-vs-logo check, and the SaaSpocalypse seat-compression note — into one way to model and value a subscription business.
+
+**Why SaaS is structurally different: revenue *recurs*.** A traditional business sells a thing once; SaaS rents access and re-earns the customer every period. That one difference changes how you model it, what makes it valuable (predictable, recurring cash flow → premium multiples and more debt capacity), and why the SaaSpocalypse scared everyone (threaten the *recurrence* and the premium collapses).
+
+**The vocabulary:**
+
+| Metric | What it is | Why it matters |
+|---|---|---|
+| ARR / MRR | annual (monthly) recurring revenue run-rate | the *base* you build from (≠ GAAP revenue) |
+| Gross / logo churn | % of revenue (customers) lost per period | the leak in the bucket |
+| **NRR** | a cohort's revenue now ÷ a year ago (churn netted against expansion) | **the master metric** — >100% grows without new sales |
+| CAC | fully-loaded cost to acquire a customer | what growth *costs* |
+| LTV | (ARR × gross margin) ÷ churn | what a customer is *worth* |
+| CAC payback | months of gross profit to recoup CAC | how fast acquisition self-funds (<18–24 mo healthy) |
+| Rule of 40 | growth % + profit/FCF margin % ≥ 40 | growth-vs-profitability balance |
+
+**The recurring-revenue build — the layer cake, SaaS edition.** Next year's ARR is built from *this* year's, not a growth rate:
+
+| Layer | Driver |
+|---|---|
+| Beginning ARR | last period's run-rate |
+| − Gross churn | lost revenue (cohort data, 7.2) |
+| + Expansion | upsell / seats / price (pricing power, 6.2) |
+| = Net retained ARR | Beginning × **NRR** |
+| + New ARR | new logos × avg ACV (pipeline × win-rate) |
+| = Ending ARR | carried forward |
+
+**NRR does the compounding.** At 115% NRR the *existing* base grows 15% before a single new sale — new deals are additive. At 90% you're bailing a leaky boat — every new sale first replaces churn. **A SaaS model's entire trajectory is set by whether NRR is above or below 100%** (which is why the 7.2 rising-NRR-hiding-falling-logo case was such a trap).
+
+**LTV/CAC — is growth creating or destroying value?** LTV/CAC ≥ ~3× is the healthy floor; below ~1× every sale *destroys* value (paying more to acquire than the customer returns). And **CAC payback is a cash-flow problem**: you fund CAC today, recoup it over years (the 4.6 working-capital drain, in SaaS form) — which is why fast-growing SaaS burns cash. The diligence crux: *growth is only good if the unit economics are* — a company "growing 40%" by spending $2 for $1 of LTV is worth **less** the faster it grows.
+
+**Rule of 40** — growth + margin ≥ 40 lets you be unprofitable *if* fast-growing (60% − 20% = 40 ✓) or slow *if* profitable (10% + 30% = 40 ✓); it sorts efficient growth from growth bought at any price.
+
+**The SaaS premium and the LBO tension.** Recurring revenue is *predictable*, and predictability is what acquirers and *lenders* pay up for — high-retention ARR supports more debt. But classic SaaS burns cash to grow (CAC upfront) while an LBO needs cash to service debt, so PE's SaaS playbook shifts the mix **from growth toward profitability** — dial down S&M to harvest FCF, betting the high-NRR base keeps compounding. That only works **if NRR >100%**: if the base shrinks, cutting S&M to service debt accelerates the decline (why seat-compression is lethal to a levered SaaS deal).
+
+**Cascade footnote:** not everything recurring is SaaS. The **aftermarket parts & service** stream (6.5) is recurring with its own installed-base retention — same layer-cake logic (installed base × attach rate × price, net of retirements) and same premium (why the recurring crown jewel deserves a higher multiple than cyclical new-equipment sales).
+
+**Check (7.4).** Two SaaS targets, both "growing 30%." **A:** NRR 120%, CAC payback 14 mo, GM 80%, Rule of 40 = 30 + 12 = 42. **B:** NRR 95%, CAC payback 30 mo, GM 78%, Rule of 40 = 30 − 15 = 15. (i) Which is better, and why? (ii) What is B's 30% growth costing it, and what happens if it stops spending on S&M? (iii) Which is the safer LBO, and what's the danger of levering the other?
+
+**Answer.**
+
+*(i)* **A**, decisively. NRR 120% → the base compounds ~20% *before any new sale* (durable growth); B's 95% → the base *shrinks*, so every new sale first replaces churn (bailing a leaky boat). A passes Rule of 40 (42) with real FCF (+12%); B fails badly (15). A recoups CAC in 14 mo (inside the healthy 18–24 window); B takes 30. Same headline growth, opposite *quality*.
+
+*(ii)* B's growth is **rented, not owned.** With NRR 95%, the base is shrinking ~5%/yr on its own, so *all* of B's 30% headline — and then some — is bought with new-logo S&M. (Note: to *pass* Rule of 40, B doesn't need to grow faster — that burns more cash; it needs **margin**, ≈ +10% to reach 40, i.e. a ~25-pt improvement.) So if B cuts S&M, growth doesn't gently "shift to profitability" — it **collapses toward negative** (~−5% from the leaking base before any efficiency gain). A can cut S&M and still grow ~20% (NRR carries it); B cannot.
+
+*(iii)* **A** is the safer LBO — NRR >100% + 12% FCF + fast payback = predictable, self-funding cash flow, and high-retention ARR is exactly what lenders lend against. Levering **B** is dangerous on two counts: it's already burning cash (−15% FCF), so debt stacks fixed interest on an operating *outflow* (the 7.1 "don't stack amplifiers"); and worse, **NRR <100% + leverage is a doom loop** — debt service forces you to cut S&M, but cutting S&M shrinks the leaky base faster → ARR and coverage fall → cut more. You *can't* run the standard SaaS-LBO playbook (trade growth for FCF by cutting S&M) on B, because B's S&M spend is the only thing holding its shrinking base up. **NRR above vs. below 100% is the master switch**: it decides whether growth is owned or rented, whether cutting S&M frees cash or triggers decline, and therefore whether the business is leverageable at all.
+
+
 # Sources & References
 
 *Real figures in this handbook were verified against public sources during course preparation (mostly via web search of primary disclosures and financial press). **Point-in-time data drifts** — fund marks, interest rates, and market sizes change; verify against primary sources before relying on them. Worked examples labeled "illustrative" (including the entire **Cascade Components** case and the round-number LBO/DCF examples) are hypothetical teaching constructs — not real companies, transactions, or projections. Superscript numbers in the text point to the entry below where a source is first cited.*

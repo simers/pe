@@ -61,7 +61,7 @@
 - ✅ 7.1 Cost Structures & Expense Modeling  ·  fixed/variable, operating leverage (worked +80%/4×), model-by-behavior, step costs, don't stack amplifiers
 - ✅ 7.2 Data Analysis & the Due Diligence Process  ·  investigation-not-reporting, cohort analysis, NRR vs logo, bridges, concentration, data-quality traps
 - ✅ 7.3 The Data Room Loop: Working with Management Data  ·  DRL as managed process, friction-map, negotiate access, reconcile, triage (resolve/price/protect/walk), exclusivity flips leverage
-- ⬜ 7.4 The SaaS Model & Recurring Revenue Builds
+- ✅ 7.4 The SaaS Model & Recurring Revenue Builds  ·  ARR layer cake, NRR as master switch, LTV/CAC & payback, Rule of 40, SaaS-LBO tension
 - ⬜ 7.5 AI Applications in Private Equity
 
 ## Module 8 — LBO Fundamentals & the PE Case Interview
